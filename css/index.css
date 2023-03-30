@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.ligne1{
+    position: relative;
+    size: 20px;
+    height: 5px;
+   background-color:#7ccef3;
+   color: #7ccef3;
+   top: -8px;
+   z-index: 1;
+}
+/********************treatment of navbar******************/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    padding-top: 1px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:#6e6c6c;
+    font-family: arial;
+    font-weight: 730;
+    font-size: 13px;
+}
+
+#menu{
+    display: flex;
+    margin-left: 200px;
+    margin-top: -4px;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 2px;
+    height: 50px;
+
+    
+    
+}
+
+header{
+    background-color:#edebeb;
+    height: 40px;
+    z-index: 3;
+}
+
+/* a:hover{
+    background-color: white;
+    transform: translateX(100px);
+    width: 15px;
+    height: 15px;
+   
+    
+} */
+ li:hover{
+    background-color: white;
+    transform: translate3d(0px,-500px);
+    border-radius: 5px;
+    width: fit-content;
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 40px;
+   
+    
+}
+
+#search{
+    position: relative;
+    left: 900px;
+    top: -65px;
+    height: 33px;
+    width: 270px;
+    background-color: #ffffff;
+    z-index: 1;
+    
+}
+/*********************position of image in seach bar*****************/
+
+#imag1{
+    position: relative;
+    height: 28px;
+    width: 28px;
+    left: 860px;
+    top: -55px;
+    z-index: 1;
+}
+
+#imag2{
+    position: absolute;
+    left: 700px;
+    top: -2px;
+}
+
+/****************title*****************/
+
+.keep{
+    position: relative;
+    font-size: 70px;
+    top: 60px;
+    left: 200px;
+    color: #7ccef3;
+}
+
+.put{
+    position: relative;
+    font-size: 20px;
+    top: 100px;
+    left: -60px;
+    color: #7ccef3;
+   
+}
+.p{
+    margin-bottom: 150px;
+}
+
+/********************************treatment of the sections***********************************/
+
+#section1{
+    width: 80%;
+    position: relative;
+    border-top: 1px rgb(121, 103, 103) dashed;
+    display: flex;
+    /* margin: 10%; */
+    margin-left: 10%;
+
+
+}
+
+#section1>div{
+    /* margin: 10px; */
+    border-right:1px solid rgb(223, 216, 216) ;
+    
+}
+
+#title{
+    color: #7ccef3;
+    border-top: 1px rgb(121, 103, 103) dashed;
+}
+.item{
+    color: #7ccef3;
+    border-top: 1px rgb(121, 103, 103) dashed;
+    width: auto;
+    margin: 20px;
+
+}
+.item2{
+    color: #7ccef3;
+    border-top: 1px rgb(121, 103, 103) solid;
+    width: auto;
+    
+
+}
+
+
+ .paragraph1{
+margin-left: 20px;
+} 
+
+.paragraph2{
+    margin-right: 77px;
+} 
+
+.firefox{
+    float:left;
+    clear: both;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+.firefox2{
+    float:left;
+    clear: both;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h3{
+    font-size: 13px;
+    color: #6e6c6c;
+}
+p{
+    font-size: 15px;
+    font-family: Calibri Light;
+}
+
+.supmenu{
+    margin-left: 40px;
+}
+
+.suptitle{
+    color:#6e6c6c;
+}
+
+.twosection{
+    max-width: 250px;
+}
+.black{
+    color: black;
+}
+
+.subdivision2{
+    display: flex;
+    justify-content: space-around;
+}
+.subdivision2>div{
+    width: 160px;
+}
+
+.firstdiv{
+    max-width: 400px;
+    margin-left: 95px;
+}
+
+.thirddivision{
+    max-width: 200px;
+}
+
+.imag2{
+    margin-left: 4px;
+}
+
+/*******************************for a footer*************************************/
+footer{
+    max-width: auto;
+    /* margin-left: 18%; */
+    background-color: #7ccef3;
+}
+
+.endofpage{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sub_end1{
+    margin-right: 80px;
+    margin-left: 250px;
+}
+.galery{
+    display: block;
+    margin: 5px;
+    
+
+}
+
+.galery2{
+    display: block;
+    margin: 5px;
+} 
+
+.endimages{
+    height: 60px;
+    width: 50px;
+    margin: 7px;
+}
+
+/* .subend2{
+    margin-right: 20px;
+} */
+
+.end{
+    margin: 20px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.ligne{
+    border-top: 1px rgb(121, 103, 103) solid;
+    margin-right: 20px;
+    
+}
+
+.phrase1{
+    top: 80%;
+    position: relative;
+}
+
+.final{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: Calibri Light;
+}
+
+.phrase2{
+    margin-top: 25px;
+}
+
+/* .stylediv2{
+    margin-left: 50px;
+     margin-right: 200px; 
+    size: 500px;
+} */
+/********************************************for a second page********************************/
+.grandcode{
+    max-width: 200px;
+}
+.code{
+    width: 250px;
+    background-color: #c9c1c1f3;
+    /* height: 140px; */
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.second{
+    margin: 20px;
+}
+
+.secon2{
+    /* padding: 20px; */
+    text-align: right;
+}
+
+.quote{
+    float: left;
+    height: 60px;
+    
+}
+
+
+@media (max-width:350px) {
+    body{
+
+        background-color: red;
+    }
+    
+}
